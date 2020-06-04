@@ -9,3 +9,5 @@ test("header works properly", () => {
     
     fireEvent.click(h1);
 });
+
+// my test isn't great but it's there, would like to do more testing if the app was more advanced and i had more time

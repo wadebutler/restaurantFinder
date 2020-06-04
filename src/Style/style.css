@@ -1,0 +1,101 @@
+.visuallyHidden:not(:focus):not(:active) { position: absolute; width: 1px; height: 1px; margin: -1px;border: 0;padding: 0;white-space: nowrap;clip-path: inset(100%);clip: rect(00 0 0);overflow: hidden;}
+
+/* GLOBAL */
+* {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 62.5%;
+    color: #d1d1d1;
+    transition: 0.3s;
+}
+
+h1, main, footer p {
+    position: fixed;
+    right: 0;
+    left: 0;
+}
+
+h1, footer p, .form input, .form button {
+    background: #3b3a3a;
+}
+
+/* HEADER */
+h1 {
+    padding: 20px;
+    top: 0;
+    z-index: 1;
+    font-size: 4rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* MAIN */
+main {
+    background: linear-gradient(156deg, rgba(184,3,255,1) 0%, rgba(255,0,98,1) 100%);
+    top: 0;
+    bottom: 0;
+    padding-top: 10%;
+    overflow: scroll;
+}
+
+/* FORM  */
+.form {
+    margin: 20px;
+}
+
+.form button {
+    padding: 5px 20px;
+}
+
+.form input, .form button {
+    font-size: 3rem;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #d1d1d1;
+}
+
+.form input:hover, .form input:focus {
+    color: #3b3a3a;
+    background: #d1d1d1;
+    border: 2px solid #3b3a3a;
+    cursor: pointer;
+} 
+
+.form button:hover, .form button:focus {
+    color: #3b3a3a;
+    background: #d1d1d1;
+    border: 2px solid #3b3a3a;
+    cursor: pointer;
+}
+
+/* RESULTS LIST */
+h2 {
+    font-size: 4rem;
+}
+
+p {
+    font-size: 2rem;
+    padding: 5px;
+}
+
+hr {
+    border: 2px solid black;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+/* FOOTER */
+footer a, footer p {
+    font-size: 2rem;
+}
+
+footer p {
+    padding: 10px;
+    bottom: 0;
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: bold;
+}

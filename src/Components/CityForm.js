@@ -24,17 +24,19 @@ class CityForm extends Component {
 
     render() {
         return (
-            <form action="">
-                <div>
-                    <label htmlFor="city">City: </label>
+            <form>
+                <div className="form">
+                    <label className="visuallyHidden" htmlFor="city">City: </label>
                     <input className="city" id="city" name="city" type="text" placeholder="City Name" />
                 </div>
-                <div>
-                    <label htmlFor="name">Name: </label>
+                <div className="form">
+                    <label className="visuallyHidden" htmlFor="name">Name: </label>
                     <input className="name" id="name" name="name" type="text" placeholder="Name of Restaurant"/>
                 </div>
                 
-                <button onClick={this.getRestraunt}>Submit</button>
+                <div className="form">
+                    <button onClick={this.getRestraunt}>Submit</button>
+                </div>
             </form>
         );
     }
