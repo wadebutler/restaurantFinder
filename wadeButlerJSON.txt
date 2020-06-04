@@ -1,0 +1,51 @@
+1. It took me roughly 4-6 hours to do the test, If I had more time to do the test I would do three changes
+     first - improve the overall style and look, not very appealing.
+     second - a task was to have the cuisine type and restaurant rating, but the OpenTable API I was told to use didn't have these features 
+                    so I would add the yelp fusion API and add these features.
+     third - expand the apps general functionality which would allow more thorough testing.
+
+2. The most useful feature added to react for me in this test was the use of Redux, I've never used it in a project prior to this, lots of 
+    boilerplate but the use of a global state is very useful.
+
+3. Tracking down performance issues in production, I haven't done this professionally but I have for my own personal projects. the process 
+    I usually take is,
+    first - google the error showing in the console and see if that yielded results
+    second - if step one doesn't show anything then I break down each component into smaller sections until the bug/error is found
+
+4. The API I was given was simple and easy to use, two improvements would be,
+    first - the name section also included the city when there is already a section with that info seems redundant
+    second - more information in general ex. cuisine types, the signature dish, etc.
+
+5. {
+    "firstName": "Wade",
+    "lastName": "Butler",
+    "age" : "28",
+    "Nationality" : "Canadian",
+    "livesIn" : "Toronto",
+    "careerGoals": [
+        "learnBackend",
+        "growAsDeveloper",
+        "createGame",
+        "createApp",
+    ],
+    "HobbiesInterests": [
+        "running",
+        "hiking",
+        "weightLifting",
+        "ufc",
+        "jiujitsu",
+        "videoGames",
+        "dungeonsAndDragons",
+        "magicTheGathering",
+        "warhammer40k",
+    ]
+}
+
+
+
+
+
+
+
+
+

@@ -5,7 +5,7 @@ import Header from "./Components/Header";
 test("header works properly", () => {
     
     const { getByText } = render(<Header />);
-    const h1 = getByText('Restaurant Finder');
+    const h1 = getByText('Restaurant Search');
     
     fireEvent.click(h1);
 });
